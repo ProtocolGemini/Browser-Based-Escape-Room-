@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project ECHO - Research Facility Escape</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="crt-effect"></div>
+    <div id="game-container">
+        <div id="room-view"></div>
+        <div id="game-ui">
+            <div id="inventory"></div>
+            <div id="parser">
+                <input type="text" id="command-input" placeholder="ENTER COMMAND:" autocomplete="off">
+                <div id="command-history"></div>
+            </div>
+            <div id="hint-system">
+                <button id="hint-button">REQUEST HINT</button>
+                <div id="hint-text"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
