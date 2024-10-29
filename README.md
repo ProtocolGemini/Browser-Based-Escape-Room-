@@ -1,3 +1,3 @@
 # Browser-Based-Escape-Room-
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ProtocolGemini/Browser-Based-Escape-Room-)
+Still a WIP... But it is the start of a browser based ARG style escape room.
